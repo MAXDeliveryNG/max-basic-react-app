@@ -1,0 +1,46 @@
+.header-container{
+    background:#FBFBFA;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.5rem;
+    position:fixed; right:0;left:0;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.logo-container{
+    padding-left:4rem;
+}
+.notification-img{
+    width: 1.7rem;
+    height:1.7rem;
+    margin-right: 2rem;
+}
+.user-circle{
+    height:2.8rem;
+    width:2.8rem;
+    background: #000;
+    color:#F3F31D;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+.dis-flex-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    .time-container{
+        text-align: center;
+        padding-right: 1.2rem;
+    }
+    span{
+        font-weight: 600;
+        padding-right: 1rem;
+    }
+}

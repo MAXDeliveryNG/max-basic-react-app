@@ -1,0 +1,28 @@
+.content-container{
+    position:absolute; right:0;left:0;
+    top:8rem;
+    bottom:4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    .article-head{
+        font-family: IBM Plex Serif;
+        font-size: 3rem;
+        font-weight: 500;
+        letter-spacing: 0;
+        text-align: start;
+        color: #1f1a17;
+    }
+    .article-content{
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #1f1a17;
+        opacity: .6;
+        text-align: justify;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+

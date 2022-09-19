@@ -1,0 +1,11 @@
+.footer-container{
+    background:#FBFBFA;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.2rem;
+    position:fixed; right:0;left:0;
+    bottom: 0;
+    text-align: center;
+    span{
+        font-weight: 500;
+    }
+}
